@@ -3,28 +3,27 @@ using AbstractFactory.CoffeeTable;
 using AbstractFactory.Interfaces;
 using AbstractFactory.Sofa;
 
-namespace AbstractFactory.FurnitureFactory
+namespace AbstractFactory.FurnitureFactory;
+
+class VictorianFurnitureFactory : IFurnitureFactory
 {
-    class VictorianFurnitureFactory : IFurnitureFactory
+    public VictorianFurnitureFactory()
     {
-        public VictorianFurnitureFactory()
-        {
-            Console.WriteLine("Victorian Theme");
-        }
+        Console.WriteLine("Victorian Theme");
+    }
 
-        public IChair CreateChair()
-        {
-            return new VictorianChair();
-        }
+    public IChair CreateChair()
+    {
+        return new VictorianChair();
+    }
 
-        public ICoffeeTable CreateCoffeeTable()
-        {
-            return new VictorianCoffeeTable();
-        }
+    public ICoffeeTable CreateCoffeeTable()
+    {
+        return new VictorianCoffeeTable();
+    }
 
-        public ISofa CreateSofa()
-        {
-            return new VictorianSofa();
-        }
+    public ISofa CreateSofa()
+    {
+        return new VictorianSofa();
     }
 }
