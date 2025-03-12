@@ -7,6 +7,11 @@ namespace AbstractFactory.FurnitureFactory;
 
 class ModernFurnitureFactory : IFurnitureFactory
 {
+    public ModernFurnitureFactory()
+    {
+        Console.WriteLine("Modern Theme");
+    }
+
     public IChair CreateChair()
     {
         return new ModernChair();

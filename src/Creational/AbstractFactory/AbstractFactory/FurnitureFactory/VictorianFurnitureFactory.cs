@@ -7,6 +7,11 @@ namespace AbstractFactory.FurnitureFactory
 {
     class VictorianFurnitureFactory : IFurnitureFactory
     {
+        public VictorianFurnitureFactory()
+        {
+            Console.WriteLine("Victorian Theme");
+        }
+
         public IChair CreateChair()
         {
             return new VictorianChair();
