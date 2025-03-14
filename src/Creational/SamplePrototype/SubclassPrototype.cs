@@ -14,7 +14,7 @@ public class SubclassPrototype : ConcretePrototype
         Field2 = prototype.Field2;
     }
 
-    public IPrototype Clone()
+    public new IPrototype Clone()
     {
         return new SubclassPrototype(this);
     }
