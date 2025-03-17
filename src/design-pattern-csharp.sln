@@ -65,6 +65,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "ShapeWithColor", "ShapeWith
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeWithColor", "Structural\Bridge\ShapeWithColor\ShapeWithColor.csproj", "{FD10A392-E0AA-1CD5-3855-ADCD33E2CF6D}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RemoteDevices", "RemoteDevices", "{236DC732-EA08-497F-B6F3-1351493FDBFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RemoteDevices", "Structural\Bridge\RemoteDevices\RemoteDevices.csproj", "{199352FA-494B-4EFD-8998-10D8C5AE4E4F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -115,6 +119,10 @@ Global
 		{FD10A392-E0AA-1CD5-3855-ADCD33E2CF6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FD10A392-E0AA-1CD5-3855-ADCD33E2CF6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FD10A392-E0AA-1CD5-3855-ADCD33E2CF6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{199352FA-494B-4EFD-8998-10D8C5AE4E4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{199352FA-494B-4EFD-8998-10D8C5AE4E4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{199352FA-494B-4EFD-8998-10D8C5AE4E4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{199352FA-494B-4EFD-8998-10D8C5AE4E4F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -149,6 +157,8 @@ Global
 		{DF29E367-A5C7-456D-A3AF-438B5F04FF15} = {837D5A9C-D3DF-4C1D-B25F-35129EE45EDB}
 		{9E57E4FB-1E7F-43C5-8FAD-B90FEE31585B} = {DF29E367-A5C7-456D-A3AF-438B5F04FF15}
 		{FD10A392-E0AA-1CD5-3855-ADCD33E2CF6D} = {9E57E4FB-1E7F-43C5-8FAD-B90FEE31585B}
+		{236DC732-EA08-497F-B6F3-1351493FDBFE} = {DF29E367-A5C7-456D-A3AF-438B5F04FF15}
+		{199352FA-494B-4EFD-8998-10D8C5AE4E4F} = {236DC732-EA08-497F-B6F3-1351493FDBFE}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {479C9C2C-695B-425A-B834-C346EDB8D854}
