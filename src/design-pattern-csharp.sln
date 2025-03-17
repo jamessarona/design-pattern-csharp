@@ -53,7 +53,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Adapter", "Adapter", "{E5CD
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "StockDataConverter", "StockDataConverter", "{2B975BEE-6BB4-4F62-993D-D8540FCA74F8}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SquarteToRound", "SquarteToRound", "{14ED070B-2406-4AB4-8EFA-B74BC3509433}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SquareToRound", "SquareToRound", "{14ED070B-2406-4AB4-8EFA-B74BC3509433}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SquareToRound", "Structural\Adapter\SquareToRound\SquareToRound.csproj", "{2D7EB969-2DA4-4880-98C0-4A1DA8389E0B}"
 EndProject
