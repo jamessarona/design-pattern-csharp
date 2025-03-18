@@ -3,32 +3,25 @@
 // Client Class
 public class ImageEditor
 {
-    private CompoundGraphic _allGraphics = new CompoundGraphic();
+    private CompoundGraphic all = new CompoundGraphic();
 
     public void Load()
     {
-        // Adding individual graphics (Dot and Circle)
-        _allGraphics.Add(new Dot(1, 2));
-        _allGraphics.Add(new Circle(5, 5, 3));
+        all.Add(new Dot(1, 2));
+        all.Add(new Circle(5, 3, 10));
+    }
 
-        // Creating a nested compound graphic
+    public void GroupSelected(List<IGraphic> components)
+    {
         CompoundGraphic group = new CompoundGraphic();
-        group.Add(new Dot(10, 10));
-        group.Add(new Circle(15, 15, 5));
 
-        // Adding the nested group to the main compound graphic
-        _allGraphics.Add(group);
-    }
+        foreach (var component in components)
+        {
+            group.Add(component);
+            all.Remove(component);
+        }
 
-    public void Move(int x, int y)
-    {
-        Console.WriteLine($"Moving all graphics by ({x}, {y})");
-        _allGraphics.Move(x, y);
-    }
-
-    public void Draw()
-    {
-        Console.WriteLine("Rendering all graphics:");
-        _allGraphics.Draw();
+        all.Add(group);
+        all.Draw(); // Draw all components
     }
 }
