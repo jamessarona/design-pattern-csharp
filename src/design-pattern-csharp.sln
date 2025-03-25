@@ -85,6 +85,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NotificationLibrary", "Noti
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationLibrary", "Structural\Decorator\NotificationLibrary\NotificationLibrary.csproj", "{2A7042D2-9C54-4978-AC0C-6FFABF41DA49}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataEncrypter", "DataEncrypter", "{AF998042-DA27-48E5-99D7-49881174554E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataEncrypter", "Structural\Decorator\DataEncrypter\DataEncrypter.csproj", "{3019AFF8-8D52-4E65-9C29-0A72A10C1ECD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -151,6 +155,10 @@ Global
 		{2A7042D2-9C54-4978-AC0C-6FFABF41DA49}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A7042D2-9C54-4978-AC0C-6FFABF41DA49}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A7042D2-9C54-4978-AC0C-6FFABF41DA49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3019AFF8-8D52-4E65-9C29-0A72A10C1ECD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3019AFF8-8D52-4E65-9C29-0A72A10C1ECD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3019AFF8-8D52-4E65-9C29-0A72A10C1ECD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3019AFF8-8D52-4E65-9C29-0A72A10C1ECD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -195,6 +203,8 @@ Global
 		{4D7D7AC4-4B49-401F-AE95-B8B55B12EE15} = {837D5A9C-D3DF-4C1D-B25F-35129EE45EDB}
 		{A7E6A65D-C6BB-40C7-B513-8B8641708CD9} = {4D7D7AC4-4B49-401F-AE95-B8B55B12EE15}
 		{2A7042D2-9C54-4978-AC0C-6FFABF41DA49} = {A7E6A65D-C6BB-40C7-B513-8B8641708CD9}
+		{AF998042-DA27-48E5-99D7-49881174554E} = {4D7D7AC4-4B49-401F-AE95-B8B55B12EE15}
+		{3019AFF8-8D52-4E65-9C29-0A72A10C1ECD} = {AF998042-DA27-48E5-99D7-49881174554E}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {479C9C2C-695B-425A-B834-C346EDB8D854}
