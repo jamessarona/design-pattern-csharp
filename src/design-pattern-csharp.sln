@@ -95,6 +95,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "VideoConverterProject", "Vi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VideoConverterProject", "Structural\Facade\VideoConverterProject\VideoConverterProject.csproj", "{614D09F1-4A4C-4149-A653-295CF77DF8D3}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Flyweight", "Flyweight", "{4E3CD2AE-A9CB-4B50-952B-71F260805B79}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TreeObjectLibrary", "Structural\Flyweight\TreeObjectLibrary\TreeObjectLibrary.csproj", "{0E06F8BE-DF9A-4A93-A7E3-B9D8D47E64D2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -169,6 +173,10 @@ Global
 		{614D09F1-4A4C-4149-A653-295CF77DF8D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{614D09F1-4A4C-4149-A653-295CF77DF8D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{614D09F1-4A4C-4149-A653-295CF77DF8D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E06F8BE-DF9A-4A93-A7E3-B9D8D47E64D2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E06F8BE-DF9A-4A93-A7E3-B9D8D47E64D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E06F8BE-DF9A-4A93-A7E3-B9D8D47E64D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E06F8BE-DF9A-4A93-A7E3-B9D8D47E64D2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -218,6 +226,8 @@ Global
 		{B430DF30-D0DF-4902-A5E9-510CB9A3B14B} = {837D5A9C-D3DF-4C1D-B25F-35129EE45EDB}
 		{E49894E5-BA6C-465E-842B-ABA3680029E6} = {B430DF30-D0DF-4902-A5E9-510CB9A3B14B}
 		{614D09F1-4A4C-4149-A653-295CF77DF8D3} = {E49894E5-BA6C-465E-842B-ABA3680029E6}
+		{4E3CD2AE-A9CB-4B50-952B-71F260805B79} = {837D5A9C-D3DF-4C1D-B25F-35129EE45EDB}
+		{0E06F8BE-DF9A-4A93-A7E3-B9D8D47E64D2} = {4E3CD2AE-A9CB-4B50-952B-71F260805B79}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {479C9C2C-695B-425A-B834-C346EDB8D854}
