@@ -5,28 +5,29 @@ namespace ContextualHelpGui.Components;
 
 public abstract class Component : IComponentWithContextualHelp
 {
-    protected Container container { get; private set; }
-    protected string tooltipText;
+    private Container? container; // Keep it private
+    protected string? tooltipText;
 
-    public Component(Container container, string tooltipText)
+    public Component(Container? container = null, string? tooltipText = null)
     {
         this.container = container;
         this.tooltipText = tooltipText;
     }
-    protected void SetContainer(Container newContainer)
+
+    public void SetContainer(Container container)
     {
-        container = newContainer;
+        this.container = container;
     }
 
-    public void ShowHelp()
+    public virtual void ShowHelp()
     {
         if (!string.IsNullOrEmpty(tooltipText))
         {
             Console.WriteLine($"Tooltip: {tooltipText}");
         }
-        else if (container != null)
+        else
         {
-            container.ShowHelp();
+            container?.ShowHelp();
         }
     }
 }
