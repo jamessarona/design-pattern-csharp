@@ -4,8 +4,8 @@ namespace TextEditor.Commands;
 
 public abstract class Command
 {
-    private Application App;
-    private Editor Editor;
+    protected Application App;
+    protected Editor Editor;
     private string Backup;
 
     public Command(Application app, Editor editor)
